@@ -6,7 +6,7 @@ const Contact = () => {
  
  function sendEmail(e){
   e.preventDefault();
-   alert('target1:'+e.target[0].value+' target2:'+e.target[1].value+' target3:'+e.target[2].value)
+   //alert('target1:'+e.target[0].value+' target2:'+e.target[1].value+' target3:'+e.target[2].value)
    
    if (!e.target[0].value)
    {
